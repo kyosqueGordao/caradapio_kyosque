@@ -3,7 +3,7 @@
     <>
       <div className="bg-danger bg-gradient text-center text-white p-5 hero-banner">
          <img
-            src={`${import.meta.env.BASE_URL}logo.png`}
+            src={`${import.meta.env.BASE_URL}logo_gordao.png`}
             alt="Logo do Quiosque Pereirão"
             className="img-fluid rounded-circle shadow-lg border border-3 border-white align-self-center mb-3"
             style={{
