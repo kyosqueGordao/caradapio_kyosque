@@ -1,0 +1,63 @@
+body {
+  background-color: #fff7f3;
+}
+
+.hero-banner {
+  min-height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-section {
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 1rem;
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.08);
+}
+
+.section-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.menu-card {
+  border: 0;
+  border-radius: 1rem;
+}
+
+.menu-card .card-header {
+  background: #f8f9fa;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.menu-card .card-header h4 {
+  margin-bottom: 0;
+}
+
+.menu-card .list-group-item {
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.footer-note {
+  min-height: 140px;
+}
+
+@media (max-width: 575.98px) {
+  .menu-section {
+    padding: 1.5rem 1rem;
+  }
+
+  .hero-banner {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 0.95rem;
+  }
+}
